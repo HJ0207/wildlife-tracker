@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>🦅 Wildlife Sighting Tracker</title>
+  <link rel="stylesheet" href="/css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>🦅 Wildlife Sighting Tracker</h1>
+    <p>Documenting Canada's Amazing Wildlife</p>
+  </header>
+
+  <main>
+    <!-- About Me Section -->
+    <section class="about-me">
+      <h2>About Me</h2>
+      <div class="about-content">
+        <img src="/images/your-photo.jpg" alt="Your photo" class="profile-img">
+        <div>
+          <h3>Hi, I'm [YOUR NAME]! 👋</h3>
+          <p>I'm a web development student passionate about creating meaningful applications that connect people with nature. When I'm not coding, you can find me hiking, bird watching, or exploring Canada's beautiful national parks.</p>
+          <p>I built this Wildlife Sighting Tracker as part of my journey to master modern JavaScript and backend development. This project combines my love for wildlife with my growing skills in Node.js and Express.js.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Project Description -->
+    <section class="project-info">
+      <h2>About This Project</h2>
+      <p>The Wildlife Sighting Tracker is a web application designed to manage and explore wildlife observation data from across Canada. Built with Express.js, it provides a RESTful API to query sightings by species, habitat, verification status, and more.</p>
+      
+      <div class="features-grid">
+        <div class="feature">
+          <span class="emoji">🔍</span>
+          <h4>Search & Filter</h4>
+          <p>Find specific species and filter by habitat type</p>
+        </div>
+        <div class="feature">
+          <span class="emoji">📊</span>
+          <h4>Statistics</h4>
+          <p>View comprehensive analytics on wildlife observations</p>
+        </div>
+        <div class="feature">
+          <span class="emoji">✅</span>
+          <h4>Verification</h4>
+          <p>Track verified vs unverified sightings</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- API Endpoints -->
+    <section class="api-section">
+      <h2>Available API Endpoints</h2>
+      <p class="api-note">Click on any endpoint below to test it in your browser!</p>
+      
+      <div class="api-grid">
+        <a href="/api/sightings" class="api-card" target="_blank">
+          <strong>Retrieve all wildlife sightings</strong><br>
+          GET <code>/api/sightings</code>
+        </a>
+        <a href="/api/sightings/verified" class="api-card" target="_blank">
+          <strong>Get only verified sightings</strong><br>
+          GET <code>/api/sightings/verified</code>
+        </a>
+        <a href="/api/sightings/species-list" class="api-card" target="_blank">
+          <strong>List all unique species names</strong><br>
+          GET <code>/api/sightings/species-list</code>
+        </a>
+        <a href="/api/sightings/habitat/forest" class="api-card" target="_blank">
+          <strong>Find all sightings in forest habitats</strong><br>
+          GET <code>/api/sightings/habitat/forest</code>
+        </a>
+        <a href="/api/sightings/search/eagle" class="api-card" target="_blank">
+          <strong>Search for eagle sightings</strong><br>
+          GET <code>/api/sightings/search/eagle</code>
+        </a>
+        <a href="/api/sightings/find-index/moose" class="api-card" target="_blank">
+          <strong>Get index position of moose sighting</strong><br>
+          GET <code>/api/sightings/find-index/moose</code>
+        </a>
+        <a href="/api/sightings/recent" class="api-card" target="_blank">
+          <strong>Get 3 most recent sightings</strong><br>
+          GET <code>/api/sightings/recent</code>
+        </a>
+      </div>
+    </section>
+
+    <!-- Tech Stack -->
+    <section class="tech-stack">
+      <h3>Technologies Used</h3>
+      <div class="tech-tags">
+        <span>Node.js</span>
+        <span>Express.js</span>
+        <span>JavaScript ES6+</span>
+        <span>HTML5</span>
+        <span>CSS3</span>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <p>© 2026 [YOUR NAME] | Wildlife Sighting Tracker | Built with ❤️ and Express.js</p>
+  </footer>
+</body>
+</html>
