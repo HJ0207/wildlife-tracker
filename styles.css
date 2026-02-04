@@ -76,6 +76,7 @@ section h3 {
   border-radius: 20px;
   object-fit: cover;
   box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+  display: block;       
 }
 
 /* Features Grid */
@@ -198,3 +199,4 @@ footer {
     grid-template-columns: 1fr;
   }
 }
+
